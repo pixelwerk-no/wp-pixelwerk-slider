@@ -62,7 +62,7 @@ add_action('admin_post_remove_image', 'prefix_admin_remove_image');
 add_action('admin_menu', 'my_plugin_menu');
 
 function my_plugin_menu() {
-  add_menu_page('Slideshow', 'Slideshow', 'administrator', 'slideshow', 'display_admin_content', get_template_directory_uri() . '/images/favicon.ico');
+  add_menu_page('Slideshow', 'Slideshow', 'administrator', 'slideshow', 'display_admin_content', 'dashicons-images-alt2');
 }
 
 function prefix_admin_remove_image() {
